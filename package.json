@@ -1,0 +1,29 @@
+{
+  "name": "pr_app",
+  "version": "1.0.0",
+  "description": "App for tracking PR's in the gym",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "nodemon": "^1.11.0",
+    "express": "^4.14.0",
+    "lodash": "^4.16.4",
+    "morgan": "^1.7.0",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hagsey/pr_app.git"
+  },
+  "author": "Eric Hagemann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hagsey/pr_app/issues"
+  },
+  "homepage": "https://github.com/hagsey/pr_app#readme"
+}
